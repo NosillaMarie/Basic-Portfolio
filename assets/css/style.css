@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica
+}
+
+body {
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 150%;
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/vichy.png");
+	width: 100%;
+	color: #666666;
+}
+
+h1 {
+	float: left;
+	padding: 20px;
+	background-color: #62a8a4;
+	color: white;
+	margin-left: 200px;
+
+}
+
+#top-bar {
+	clear: both;
+	background-color: white;
+	height: 100px;
+	width: 100%;
+	min-width: 960px;
+}
+
+nav {
+	float: right;
+	padding: 50px;
+	margin-right: 150px;
+	color: #dddddd;
+}
+
+/*unvisited link*/
+a:link {
+	color: #666666;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 1em;
+
+}
+
+.wrapper {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 960px;
+}
+
+ h2 {
+ 	color: #62a8a4;
+ }
+
+ hr {
+ 	background-color: #dddddd;
+ 	display: block;
+ 	height: 3px;
+ 	border: 0;
+ }
+
+#bio-image {
+	height: 200px;
+	width: 200px;
+	margin-right: 20px;
+	margin-top: 15px;
+	float: left;
+}
+ #about {
+ 	width: 40%;
+ 	margin-left: 200px;
+ 	margin-right: 160px;
+ 	border-style: solid;
+ 	border-color: #dddddd;
+ 	border-width: 1px;
+ 	padding: 25px;
+ 	background-color: white;
+ 	margin-bottom: 100px;
+ 	float: left;
+ }
+
+/*contact page*/
+
+input[type=text] {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	color: #666666;
+	font-size: 18px;
+}
+
+input[type=text]#message {
+	padding: 70px 20px;
+}
+
+input[type=submit]#submit {
+	padding: 12px 30px 12px 30px;
+	background-color: #62a8a4;
+	color: white;
+	border: none;
+}
+
+/*End of Contact Page*/
+
+/*Start of Portfolio Page*/
+
+#portfolio {
+	width: 40%;
+ 	margin-left: 200px;
+ 	margin-right: 160px;
+ 	border-style: solid;
+ 	border-color: #dddddd;
+ 	border-width: 1px;
+ 	padding: 25px;
+ 	background-color: white;
+ 	margin-bottom: 100px;
+ 	float: left;
+
+}
+
+.img {
+	height: 130px;
+	width: 200px;
+	float: left;
+
+}
+#portfolioImages {
+	width: 40%;
+	float: left;
+
+}
+h3 {
+	position:absolute;
+    top: 50px;
+    left: 9px;
+    background-color: #62a8a4;
+    color: white; 
+    width: 182px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h4 {
+	text-align: center;
+	color: #62a8a4;
+}
+
+#contact-info {
+	border: solid;
+	float: left;
+	width: 210px;
+	padding: 20px;
+	border-color: #dddddd;
+ 	border-width: 1px;
+ 	background-color: white;
+}
+
+#github { 
+	width: 50px;
+	height: 50px;
+ }
+
+ #linkedin { 
+	width: 50px;
+	height: 50px;
+ }
+
+ #stackoverflow { 
+	width: 50px;
+	height: 50px;
+ }
+
+
+
+footer {
+	clear: both;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	text-align: center;
+	background-color: #666666;
+	color: white;
+	padding: 30px;
+	border-top-style: solid;
+	border-top-color: #62a8a4;
+	border-top-width: 8px;
+}
+
