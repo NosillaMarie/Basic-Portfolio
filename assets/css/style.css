@@ -1,4 +1,6 @@
 * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: Helvetica
 }
@@ -74,7 +76,7 @@ a:link {
  #about {
  	width: 40%;
  	margin-left: 200px;
- 	margin-right: 160px;
+ 	margin-right: 60px;
  	border-style: solid;
  	border-color: #dddddd;
  	border-width: 1px;
@@ -111,41 +113,89 @@ input[type=submit]#submit {
 /*Start of Portfolio Page*/
 
 #portfolio {
-	width: 40%;
+	max-width: 478px;
+	max-height: 700px;
  	margin-left: 200px;
- 	margin-right: 160px;
+ 	margin-right: 60px;
  	border-style: solid;
  	border-color: #dddddd;
  	border-width: 1px;
- 	padding: 25px;
+ 	padding: 15px;
  	background-color: white;
  	margin-bottom: 100px;
  	float: left;
+}
 
+#portfolioImages {
+	position: relative;
+	max-width: 500px;
 }
 
 .img {
 	height: 130px;
 	width: 200px;
-	float: left;
-
+	margin: 20px 10px 10px 10px;
 }
-#portfolioImages {
-	width: 40%;
-	float: left;
 
-}
-h3 {
+h3-1 {
 	position:absolute;
-    top: 50px;
-    left: 9px;
+	top: 110px;
+    left: 10px;
     background-color: #62a8a4;
     color: white; 
-    width: 182px;
+    width: 200px;
     text-align: center;
     font-size: 18px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
+
+h3-2 {
+	position:absolute;
+    top: 110px;
+    left: 235px;
+    background-color: #62a8a4;
+    color: white; 
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+h3-3 {
+	position:absolute;
+    top: 280px;
+    left: 10px;
+    background-color: #62a8a4;
+    color: white; 
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h3-4 {
+	position:absolute;
+    top: 280px;
+    left: 235px;
+    background-color: #62a8a4;
+    color: white; 
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h3-5 {
+	position:absolute;
+    top: 445px;
+    left: 10px;
+    background-color: #62a8a4;
+    color: white; 
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
 
 h4 {
 	text-align: center;
