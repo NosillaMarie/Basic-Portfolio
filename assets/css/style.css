@@ -1,6 +1,4 @@
 * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: Helvetica
 }
@@ -11,10 +9,10 @@ html {
 }
 
 body {
-	margin: 0 0 100px;;
+	margin: 0 0 100px;
 	font-size: 18px;
 	line-height: 150%;
-	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/fancy_deboss.png");
+	background-image: url("../../assets/images/light_grey_@2X.jpg");
 	width: 100%;
 	color: #777777;
 }
@@ -24,7 +22,7 @@ h1 {
 	padding: 20px;
 	background-color: #4aaaa5;
 	color: white;
-	margin-left: 200px;
+	margin-left: 155px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
@@ -64,10 +62,8 @@ a:hover {
 
 .wrapper {
 	clear: both;
-	margin-left: auto;
-    margin-right: auto;
-	width: 100%;
-	min-width: 960px;
+	width: 960px;
+    margin: auto;
 }
 
  h2 {
@@ -90,9 +86,8 @@ a:hover {
 	float: left;
 }
  #about {
- 	max-width: 650px;
- 	margin-left: 200px;
- 	margin-right: 60px;
+    margin-right: 30px;
+ 	width: 650px;
  	border-style: solid;
  	border-color: #dddddd;
  	border-width: 1px;
@@ -103,9 +98,12 @@ a:hover {
  }
 
 /*contact page*/
+form {
+    width: 650px;
+}
 
 input[type=text] {
-	width: 100%;
+	width: 600px;
 	padding: 10px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
@@ -129,10 +127,10 @@ input[type=submit]#submit {
 /*Start of Portfolio Page*/
 
 #portfolio {
-	max-width: 650px;
+    position: relative;
+	width: 650px;
+    margin-right: 30px;
 	max-height: 700px;
- 	margin-left: 200px;
- 	margin-right: 60px;
  	border-style: solid;
  	border-color: #dddddd;
  	border-width: 1px;
@@ -143,7 +141,7 @@ input[type=submit]#submit {
 }
 
 #portfolioImages {
-	position: relative;
+
 
 }
 
@@ -155,8 +153,8 @@ input[type=submit]#submit {
 
 h3-1 {
 	position:absolute;
-	top: 110px;
-    left: 20px;
+	top: 200px;
+    left: 35px;
     background-color: #4aaaa5;
     color: white; 
     width: 260px;
@@ -167,8 +165,8 @@ h3-1 {
 
 h3-2 {
 	position:absolute;
-    top: 110px;
-    left: 325px;
+    top: 200px;
+    left: 340px;
     background-color: #4aaaa5;
     color: white; 
     width: 260px;
@@ -178,8 +176,8 @@ h3-2 {
 }
 h3-3 {
 	position:absolute;
-    top: 280px;
-    left: 20px;
+    top: 370px;
+    left: 35px;
     background-color: #4aaaa5;
     color: white; 
     width: 260px;
@@ -190,8 +188,8 @@ h3-3 {
 
 h3-4 {
 	position:absolute;
-    top: 280px;
-    left: 325px;
+    top: 370px;
+    left: 340px;
     background-color: #4aaaa5;
     color: white; 
     width: 260px;
@@ -202,8 +200,8 @@ h3-4 {
 
 h3-5 {
 	position:absolute;
-    top: 445px;
-    left: 20px;
+    top: 540px;
+    left: 35px;
     background-color: #4aaaa5;
     color: white; 
     width: 260px;
@@ -222,7 +220,7 @@ h4 {
 #contact-info {
 	border: solid;
     float: left;
-	max-width: 210px;
+	max-width: 260px;
 	padding: 20px;
 	border-color: #dddddd;
  	border-width: 1px;
@@ -230,6 +228,7 @@ h4 {
 }
 
 #github { 
+    clear:both;
 	width: 50px;
 	height: 50px;
  }
